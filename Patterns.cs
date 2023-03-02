@@ -9,7 +9,7 @@ namespace RegaxDemoConcept
 {
     internal class Patterns
     {
-        public static string REGEX_PIN = "^[A-Z]{1}[a-z]{2,}$";
+        public static string REGEX_PIN = "^[A-Z]+[ a-z]+[^@\\s]+@[^@\\s]+\\.(com|net|org|gov)$";
 
         public bool validate(string name)
         {
