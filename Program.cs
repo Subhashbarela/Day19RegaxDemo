@@ -20,11 +20,11 @@ namespace RegaxDemoConcept
 
             if (val)
             {
-                Console.WriteLine("Valid Email Name");
+                Console.WriteLine("You Insert Valid Password Name");
             }
             else
             {
-                Console.WriteLine("Invalid Email Name!");
+                Console.WriteLine("You Insert Invalid Password Name!");
             }
         }
     }
