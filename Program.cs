@@ -12,11 +12,10 @@ namespace RegaxDemoConcept
         {
             Patterns pattern = new Patterns();
 
-            //Console.WriteLine("Enter your EmailId: ");
-            // string name = Console.ReadLine();
            
-            string name = "Subhash123@gmail.net";
-            bool val = pattern.validate(name);
+           
+            String pass = "Subhash54";
+            bool val = pattern.validate(pass);
 
             if (val)
             {
