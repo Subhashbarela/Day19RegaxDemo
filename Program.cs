@@ -15,7 +15,7 @@ namespace RegaxDemoConcept
             //Console.WriteLine("Enter your EmailId: ");
             // string name = Console.ReadLine();
            
-            string name = "ubhash@123";
+            string name = "Subhash@543";
             bool val = pattern.validate(name);
 
             if (val)
